@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	color: #FFFFFF;
+}
+.navbox{
+	width: 100%;
+	height: 500px;
+	background: url(../img/12.png);
+	position: relative;
+}
+.nav{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 5px;
+	opacity: 0.9;
+	
+}
+.nav ul{
+	margin-right: 40px;
+}
+.nav ul li{
+	float: right;
+	line-height: 60px;
+	margin: 0 10px;
+}
+.nav ul li a{
+	font-size: 18px;
+}
+.nav ul li a:hover{
+	color: #cb9f6b;
+}
+/*特色菜start*/
+.tesecai{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.tesecai h2,.about h2,.meun h2{
+	text-align: center;
+	font-weight: 400;
+	opacity: 0.8;
+}
+.tesecai .ptitle,.about .ptitle,.meun .ptitle{
+	opacity: 0.4;
+	text-align: center;
+	margin: 2px 0;
+	letter-spacing: 3px;
+}
+.tesecai .foodbox{
+	width: 1200px;
+	margin: 0 auto;
+}
+.tesecai .foodbox .box1{
+	width: 280px;
+	height: 220px;
+	border: 1px solid lightgrey;
+	margin: 8px 8px;
+	float: left;
+	position: relative;
+}
+.tesecai .foodbox .box1 img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+.tesecai .foodbox .box1 img:hover{
+	opacity: 1;
+}
+.tesecai .foodbox .box1 div{
+	position: absolute;
+	top: 50px;
+	left: 45px;
+	width: 200px;
+	height: 115px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	opacity: 0.8;
+	display: none;
+}
+.tesecai .foodbox .box1 div p{
+	position: absolute;
+	top: 40%;
+	left: 65px;
+	color: #FFFFFF;
+}
+.tesecai .foodbox .box1:hover .c{
+	display: block;
+}
+.tesecai .foodbox .box1 .ptest{
+	text-align: center;
+	display: none;
+}
+/*特色菜end*/
+
+
+/*关于我们开始*/
+.bigbox{
+	width: 100%;
+	/* background-color: rgba(242,242,242,0.7); */
+	background: url(../img/about-bg.png);
+	margin: 40px 0 0 0;
+	height: 500px;
+}
+.about{
+	height: 450px;
+}
+.about h2{
+	margin: 5px 0 3px 0;
+	padding: 10px 0 2px 0;
+}
+.about .ptitle{
+	margin-bottom: 15px;
+}
+.about,.meun,.yuding,.concact,.footer{
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 40px;
+}
+.usbox{
+	width: 1200px;
+	margin: 0 auto;
+	height: 350px;
+	background-color: #fff;
+	
+}
+.usbox .leftbox{
+	float: left;
+	width: 680px;
+	height: 100%;
+	
+	position: relative;
+}
+.usbox .leftbox .aboutface{
+   position: absolute;
+   top: 60px;
+   letter-spacing: 2px;
+   text-indent: 20px;
+   padding-left: 25px;
+   font-size: 16px;
+}
+.usbox .rightbox{
+	float: left;
+	width: 480px;
+	height: 100%;
+	margin-left: 36px;
+	
+}
+.usbox .rightbox img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*关于我们结束*/
+.ourMenu{
+	width: 100%;
+	background: url(../img/ourmenu-bg.jpg);
+	opacity: 0.8;
+	height: 600px;
+}
+.meun{
+	height: 600px;
+	color: #FFFFFF;
+	width: 1200px;
+}
+.meun h2{
+	letter-spacing: 3px;
+}
+.menubox{
+	width: 1200px;
+	height: 450px;
+	
+	margin: 0 auto;
+	margin-top: 40px;
+	
+}
+.box3{
+	width: 290px;
+	float: left;
+	height: 215px;
+	/* border: 1px solid black; */
+	margin: 1px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.box3 img{
+	width: 100%;
+	height: 100%;
+}
+.box3 h3{
+	font-weight: 450;
+	padding: 18px 15px 3px 15px;
+}
+.box3 p{
+	padding: 2px 15px;
+}
+.r h3{
+	float: right;	
+}
+.r p{
+	float: right;
+}
+
+/*菜单结束*/
+/*活动开始*/
+.bigAction{
+	width: 100%;
+	/* background: url(../img/event-bg.jpg);
+	opacity: 0.5; */
+}
+.action{
+	width: 1200px;
+	margin: 0 auto;
+}
+.action ul li{
+	margin: 5px 0px;
+}
+.leftbox1{
+	width: 480px;
+	height: 400px;
+    margin-left: 100px;
+	float: left;
+}
+.leftbox1 img{
+	width: 100%;
+	height: 100%;
+}
+.leftbox2{
+	width: 500px;
+	height: 400px;
+	float: left;
+	margin-left: 100px;
+	position: relative;
+}
+.rightbox1{
+	float: right;
+	width: 600px;
+	height: 400px;
+	position: relative;
+	
+}
+.rightbox1 h4,.leftbox2 h4{
+	font-size: 20px;
+	font-weight: 400;
+	/* text-align: center; */
+	margin: 20px;
+}
+.leftbox2 h4{
+	margin-top: 60px;
+}
+.leftbox2 .p1,.rightbox1 .p1{
+	text-indent: 20px;
+	padding: 4px;
+	letter-spacing: 2px;
+}
+.leftbox2 .p2,.rightbox1 .p2{
+	padding: 4px;
+}
+.rightbox2{
+	width: 480px;
+	height: 400px;
+	float: right;
+   margin-right: 100px;
+}
+.rightbox2 img{
+	width: 100%;
+	height: 100%;
+}
+.sp1,.sp2{
+	display: block;
+	width: 120px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.8);
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 15px;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+.sp1:hover,.sp2:hover{
+	
+	opacity: 1;
+}
+
+.sp2{
+	right: 10px;
+}
+/*活动结束*/
+/*预定开始*/
+.bigYuding{
+	width: 100%;
+	background: url(../img/contact-bg.jpg);
+	background-position: center;
+	/* margin: 8px 0; */
+	opacity: 0.8;
+}
+.yuding{
+	width: 1200px;
+	margin: 0 auto;
+	height: 280px;
+	background-color: rgba(0,0,0,0.8);
+}
+.yuding h2{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing:4px;
+}
+.yuding .ptitle{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.frombox{
+	width: 1200px;
+	
+	height: 180px;
+	position: relative;
+	
+}
+.frombox .f1,.frombox .f2{
+	width: 400px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 20px;
+	font-size: 23px;
+}
+
+.frombox .f1 input,.frombox .f2 input{
+	width: 380px;
+	height: 40px;
+	outline: none;
+	border: 1px solid #FFFFFF;
+	padding: 2px;
+	
+	border-radius: 10px;
+	background-color:transparent; 
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.frombox .f3{
+	width: 800px;
+	margin-left: 140px;
+	margin-top: 10px;
+}
+.frombox .f3 textarea{
+	width: 920px;
+	height: 60px;
+	padding: 3px;
+	outline: none;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color:transparent;  
+}
+.frombox .f4{
+	position: absolute;
+	/* left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto; */
+	left: 50%;
+	margin-left: -63px;
+	margin-top: 10px;
+	
+}
+.frombox .f4 input{
+	width: 120px;
+	height: 40px;
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+.frombox .f4 input:hover{
+	background-color: #CB9F6B;
+}
+
+
+/*预定结束*/
+.bigcontact{
+	width: 100%;
+	background: url(../img/about-bg.png);
+	margin: 2px;
+}
+.concact{
+	width: 1200px;
+}
+.concact .contactInfo{
+	width: 500px;
+	float: left;
+}
+.concact .contactInfo h4{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.concact .contactInfo p{
+	text-align: center;
+	margin: 10px 0;
+	font-size: 18px;
+	
+}
+
+
+
+.concact iframe{
+	float: right;
+	border: 1px solid black;
+}
+.footer{
+	width: 100%;
+	background-color: lightskyblue;
+	color: #FFFFFF;
+}
