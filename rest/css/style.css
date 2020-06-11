@@ -96,7 +96,7 @@ a{
 }
 .tesecai .foodbox .box1 .ptest{
 	text-align: center;
-	display: none;
+	/* display: none; */
 }
 /*特色菜end*/
 
